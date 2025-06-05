@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ppa.css">
+    <title>ppa-game</title>
+</head>
+<body>
+    <header> 
+        <p class="score">Score</p>
+        <div id="score">
+             <p id="comp">COMP: <span id="comp-score">0</span> </p> <p id="you">YOU: <span id="player-score">0</span></p>
+        </div> 
+    </header>
+    <main>
+        <p id="play">Let's play</p>
+    <h1>Rock, Paper, scissors</h1>
+    <div id="button-container">
+        <div id="button">
+            <button id="rock" class="button">👏🏿</button>
+            <button id="paper" class="button">📃</button>
+            <button id="scissors" class="button">✂</button>
+        </div>
+        <div id="over">
+            <h2 id="game">GAME OVER</h2>
+            <button id="plays">PLAY AGAIN</button>
+        </div>
+    </div>
+
+    <dialog id="dialog">
+       <p> Do you want to play Again</p>
+        <div id="dialog-BT">
+           <button id="yes">Yes</button>
+           <button id="No">NO</button>
+       </div>
+    </dialog>
+    </main>
+    <div id="result-div"></div>
+
+    <script src="ppa.js"></script>
+</body>
+</html>

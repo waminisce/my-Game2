@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Game.css">
+    <title>DiceGame</title>
+</head>
+<body >
+    <video id="myVideo"  autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+      </video>
+    <div id="content">
+        <h1 class="content1">Dice Game</h1>
+       <div class="content2">
+        <label for="Dice">Dice number: </label>
+        <div id="Dice">0</div>
+        <button type="button" id="content3">Roll  🎲 </button>
+       </div>
+
+       <div id="show1"></div>
+       <div id="show2"></div>
+
+       <dialog id="showmodal">
+          <div class="score">
+            <div id="your-score"></div>
+            <div id="com-score"></div>
+            </div>
+           <video id="video" utoplay loop muted poste="https://assets.codepen.io/6093409/river.jpg"><source src="istockphoto-1999673581-640_adpp_is.mp4"></video>
+           <div id="result3"></div>
+            <div class="btn">
+                <button id="button1">play Again</button>
+                <button id="button2">Exit</button>
+           </div>
+           
+        </dialog>
+        <div id="exit">
+            <h2>GAME OVER</h2>
+            <P>👏 Thank you for your support👏</P>
+        </div>
+    </div>
+    
+    
+
+
+    <script src="Game.js"></script>
+</body>
+</html>
